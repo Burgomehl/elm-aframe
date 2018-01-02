@@ -11,7 +11,7 @@ This module brings declarative WebVR framework [A-Frame](https://aframe.io/) to 
     cd examples/HelloWorld
     elm-make Main.elm --output index.js
     
-    The result can be found at index.html
+The result can be found at index.html
     
 ## Running webpack example
 The webpack configuration includes a webserver and will automatically reload your code when you make changes. Error message during build will be shown in the browser console.
