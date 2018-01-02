@@ -77,7 +77,10 @@ transparent : Bool -> Attribute msg
 transparent value =
     attribute "transparent" (toLower (toString value))
 
-
+{-| -}
+id : String -> Attribute msg
+id value =
+  attribute "id" value
 
 -- Geometry Attributes
 
