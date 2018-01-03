@@ -3,7 +3,7 @@ module AFrame.Primitives.Attributes exposing (..)
 {-| A-Frame primitive attributes.
 
 # Mesh attributes
-@docs color, metalness, shader, src, opacity, roughness, translate, transparent
+@docs color, metalness, shader, src, opacity, roughness, translate, transparent, id
 
 # Geometry attributes
 @docs radius, radiusTop, radiusBottom, position, scale, rotation, height, width, depth, segmentsRadial
@@ -49,6 +49,10 @@ src : String -> Attribute msg
 src value =
     attribute "src" value
 
+{-| -}
+repeat : String -> Attribute msg
+repeat value=
+  attribute "repeat" value
 
 {-| -}
 opacity : Float -> Attribute msg
